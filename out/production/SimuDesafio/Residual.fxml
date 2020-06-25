@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #070B19;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <AnchorPane layoutX="58.0" layoutY="53.0" prefHeight="481.0" prefWidth="690.0" style="-fx-background-color: #0B2F3A; -fx-background-radius: 30;">
+         <children>
+            <Label layoutX="175.0" layoutY="-25.0" prefHeight="50.0" prefWidth="366.0" style="-fx-alignment: center;" text="RESIDUAL Y PESOS" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Goudy Old Style" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="127.0" fitWidth="193.0" layoutX="79.0" layoutY="65.0">
+               <image>
+                  <Image url="@img/tetraedro.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="196.0" layoutY="54.0" text="1" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="279.0" layoutY="168.0" text="2" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="168.0" text="3" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="191.0" layoutY="128.0" text="4" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" layoutX="69.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Debido a que esto es muy ideal se utiliza la herramienta peso, W(x) para establecer la influencia que cada punto tiene en el resultado, donde:" textAlignment="CENTER" wrappingWidth="292.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView layoutX="99.0" layoutY="83.0">
+               <image>
+                  <Image url="@img/espalda.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="301.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al tener el dominio y tomar un difencial aparece un residuo R en este y en todos los infinitos diferenciales, el objetivo es que la sumatoria de todos sea igual a 0, para que se compensen y anulen." textAlignment="CENTER" wrappingWidth="335.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Label layoutX="58.0" layoutY="54.0" prefHeight="22.0" prefWidth="82.0" text="R = Rdx" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="127.0" fitWidth="193.0" layoutX="392.0" layoutY="254.0">
+               <image>
+                  <Image url="@img/tetraedro.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="451.0" layoutY="232.0" text="1" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="592.0" layoutY="357.0" text="2" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="371.0" layoutY="357.0" text="3" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="504.0" layoutY="317.0" text="4" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="532.0" layoutY="275.0">
+               <image>
+                  <Image url="@img/espalda%20(1).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="555.0" layoutY="255.0" prefHeight="22.0" prefWidth="61.0" text="R" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="567.0" layoutY="280.0" prefHeight="22.0" prefWidth="61.0" text="W" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="575.0" layoutY="264.0" prefHeight="22.0" prefWidth="82.0" text="= WRdx" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="178.0" layoutY="346.0" prefHeight="22.0" prefWidth="82.0" text="R = R(x)" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="171.0" layoutY="368.0" prefHeight="22.0" prefWidth="82.0" text="W =W(x)" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="231.0" layoutY="511.0" mnemonicParsing="false" onAction="#cambioPaso3" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/chevron-izquierdo%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="483.0" layoutY="511.0" mnemonicParsing="false" onAction="#cambioPaso4" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/chevron-izquierdo%20(2).png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="357.0" layoutY="512.0" mnemonicParsing="false" onAction="#cambioMef1" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/navegador.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</AnchorPane>

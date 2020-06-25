@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #070B19;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <AnchorPane layoutX="58.0" layoutY="53.0" prefHeight="474.0" prefWidth="690.0" style="-fx-background-color: #0B2F3A; -fx-background-radius: 30;" AnchorPane.topAnchor="53.0">
+         <children>
+            <Label layoutX="165.0" layoutY="-25.0" prefHeight="50.0" prefWidth="366.0" style="-fx-alignment: center;" text="PASO 1: LOCALIZACIÓN" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="-25.0">
+               <font>
+                  <Font name="Goudy Old Style" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="168.0" fitWidth="174.0" layoutX="461.0" layoutY="90.0">
+               <image>
+                  <Image url="@img/3d.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="168.0" fitWidth="181.0" layoutX="50.0" layoutY="82.0">
+               <image>
+                  <Image url="@img/cubb.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="108.0" fitWidth="131.0" layoutX="285.0" layoutY="113.0">
+               <image>
+                  <Image url="@img/tetraedro.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="149.0" layoutY="62.0" text="Z" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="38.0" layoutY="214.0" text="X" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="231.0" layoutY="210.0" text="Y" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="345.0" layoutY="73.0" text="1" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="416.0" layoutY="205.0" text="2" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="272.0" layoutY="203.0" text="3" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="329.0" layoutY="145.0" text="4" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="553.0" layoutY="66.0" text="Z" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="449.0" layoutY="221.0" text="X" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="643.0" layoutY="222.0" text="Y" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" layoutX="98.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al discretizar el dominio 3D en elementos, se forma una malla de tetaedros." textAlignment="CENTER" wrappingWidth="515.0">
+               <font>
+                  <Font size="12.5" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="98.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El elemento en forma de tetaedro cuenta de 4 nodos y se encuentra en el mundo x, y, z. sin embargo este tiene mucha varibalidad en las formas. Para resolver este problema se usa de un mundo ideal, conocido como Mundo Isoparamétrico" textAlignment="CENTER" wrappingWidth="515.0">
+               <font>
+                  <Font size="12.5" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="99.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Se toma un elemento tetaedro para que sea la representacion del objeto abstraido " textAlignment="CENTER" wrappingWidth="515.0">
+               <font>
+                  <Font size="12.5" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioPasos" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/chevron-izquierdo%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button id="button2" layoutX="483.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioPaso1par2" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="483.0" AnchorPane.topAnchor="505.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/chevron-izquierdo%20(2).png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="357.0" layoutY="506.0" mnemonicParsing="false" onAction="#cambioMef1" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/navegador.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #070B19;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <AnchorPane layoutX="58.0" layoutY="53.0" prefHeight="481.0" prefWidth="690.0" style="-fx-background-color: #0B2F3A; -fx-background-radius: 30;">
+         <children>
+            <Label layoutX="75.0" layoutY="-25.0" prefHeight="50.0" prefWidth="544.0" style="-fx-alignment: center;" text="PASO 5: MÉTODO DE GALERKIN" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Goudy Old Style" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="94.0" fitWidth="134.0" layoutX="150.0" layoutY="78.0">
+               <image>
+                  <Image url="@img/tetraedro.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="212.0" layoutY="44.0" text="1" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="284.0" layoutY="142.0" text="2" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="142.0" text="3" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="228.0" layoutY="120.0" text="4" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="128.0" layoutY="55.0" prefHeight="22.0" prefWidth="61.0" text="A1, B1" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="100.0" layoutY="120.0" text="A3, B3" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="290.0" layoutY="120.0" text="A2, B2" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="256.0" layoutY="80.0" text="A4, B4" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Eras Demi ITC" size="18.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" layoutX="367.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Las funciones de peso al ser muy similares a las funciones de forma, este método establece " textAlignment="CENTER" wrappingWidth="266.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="69.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al ser W un vector columna y N un vector fila, W es igual al vector N transpuesto" textAlignment="CENTER" wrappingWidth="556.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="161.0" fitWidth="510.0" layoutX="100.0" layoutY="257.0">
+               <image>
+                  <Image url="@img/50.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="367.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N = W" textAlignment="CENTER" wrappingWidth="266.0">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="77.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Se sustituye W por N transpuesta en las dos ecuaciones y luego se unen en una sola" textAlignment="CENTER" wrappingWidth="556.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button layoutX="231.0" layoutY="511.0" mnemonicParsing="false" onAction="#cambioPaso4" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/chevron-izquierdo%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="483.0" layoutY="511.0" mnemonicParsing="false" onAction="#cambioPaso5part2" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/chevron-izquierdo%20(2).png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="357.0" layoutY="512.0" mnemonicParsing="false" onAction="#cambioMef1" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/navegador.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</AnchorPane>
