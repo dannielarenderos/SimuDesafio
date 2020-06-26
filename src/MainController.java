@@ -108,6 +108,40 @@ public class MainController implements Initializable {
 
     }
 
+    @FXML
+    public void cambioEnsam(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Ensam.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
+
+    @FXML
+    public void cambioEnsam1(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Ensam1.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
+    @FXML
+    public void cambioEnsam2(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Ensam2.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
 
     @FXML
     public void cambioFunForm(ActionEvent event) throws IOException {

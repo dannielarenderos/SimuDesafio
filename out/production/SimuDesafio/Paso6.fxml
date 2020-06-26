@@ -102,7 +102,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button layoutX="483.0" layoutY="511.0" mnemonicParsing="false" onAction="#cambioPaso5" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+      <Button layoutX="483.0" layoutY="511.0" mnemonicParsing="false" onAction="#cambioEnsam" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
          <graphic>
             <ImageView>
                <image>
