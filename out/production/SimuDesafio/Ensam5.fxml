@@ -34,12 +34,12 @@
             </Text>
             <ImageView layoutX="42.0" layoutY="88.0">
                <image>
-                  <Image url="@img/ensam1.gif" />
+                  <Image url="@img/ensamEl2.gif" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
-      <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioEnsam" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">
+      <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioEnsam4" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">
          <graphic>
             <ImageView>
                <image>
@@ -47,7 +47,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button id="button2" layoutX="483.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioEnsam3" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="483.0" AnchorPane.topAnchor="505.0">
+      <Button id="button2" layoutX="483.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioPasos" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="483.0" AnchorPane.topAnchor="505.0">
          <graphic>
             <ImageView>
                <image>

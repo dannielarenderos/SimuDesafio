@@ -27,39 +27,19 @@
                   <Font size="13.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="96.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A nival local " textAlignment="CENTER" wrappingWidth="515.0">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <ImageView fitHeight="161.0" fitWidth="296.0" layoutX="98.0" layoutY="150.0">
+            <ImageView fitHeight="237.0" fitWidth="450.0" layoutX="120.0" layoutY="134.0">
                <image>
-                  <Image url="@img/k.png" />
+                  <Image url="@img/ensam.gif" />
                </image>
             </ImageView>
-            <ImageView layoutX="403.0" layoutY="156.0">
-               <image>
-                  <Image url="@img/T.png" />
-               </image>
-            </ImageView>
-            <ImageView layoutX="519.0" layoutY="156.0">
-               <image>
-                  <Image url="@img/b.png" />
-               </image>
-            </ImageView>
-            <Text fill="WHITE" layoutX="476.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=" textAlignment="CENTER" wrappingWidth="46.0">
-               <font>
-                  <Font size="52.0" />
-               </font>
-            </Text>
-            <Text fill="WHITE" layoutX="176.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4x4               4x1            4x1" textAlignment="CENTER" wrappingWidth="354.0">
-               <font>
-                  <Font size="22.0" />
-               </font>
-            </Text>
             <Text fill="WHITE" layoutX="88.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A nivel global, en base a la tabla de conectividades se puede aplicar el mismo proceso para ensamblar cada sistema local en la matriz y en los vectores globales" textAlignment="CENTER" wrappingWidth="515.0">
                <font>
                   <Font size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="96.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A nival local " textAlignment="CENTER" wrappingWidth="515.0">
+               <font>
+                  <Font size="15.0" />
                </font>
             </Text>
          </children>
