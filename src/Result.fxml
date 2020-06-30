@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #070B19;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <AnchorPane layoutX="58.0" layoutY="53.0" prefHeight="474.0" prefWidth="690.0" style="-fx-background-color: #0B2F3A; -fx-background-radius: 30;" AnchorPane.topAnchor="53.0">
+         <children>
+            <Label layoutX="131.0" layoutY="-25.0" prefHeight="50.0" prefWidth="431.0" style="-fx-alignment: center;" text="CONDICIÓN DE DIRICHLET" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="-25.0">
+               <font>
+                  <Font name="Goudy Old Style" size="33.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="42.0" layoutY="100.0">
+               <image>
+                  <Image url="@img/ensamDir4.gif" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="89.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Una vez se tiene el resultado de la multiplicación en cada nodo que tiene condición de Dirichloet, se mueven estos nodos hacia el lado derecho del vector que tienen las condiciones de Neumann" textAlignment="CENTER" wrappingWidth="515.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioDir3" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/chevron-izquierdo%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button id="button2" layoutX="483.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioDir4" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="483.0" AnchorPane.topAnchor="505.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/chevron-izquierdo%20(2).png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="357.0" layoutY="506.0" mnemonicParsing="false" onAction="#cambioEnsamMenu" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/numeracion%20(3).png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</AnchorPane>

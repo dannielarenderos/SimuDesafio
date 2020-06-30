@@ -120,7 +120,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button layoutX="357.0" layoutY="512.0" mnemonicParsing="false" onAction="#cambioMef1" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+      <Button layoutX="357.0" layoutY="512.0" mnemonicParsing="false" onAction="#cambioInicio" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
          <graphic>
             <ImageView>
                <image>

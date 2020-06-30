@@ -27,9 +27,9 @@
                   <Font size="14.0" />
                </font>
             </Text>
-            <Label layoutX="139.0" layoutY="-19.0" prefHeight="39.0" prefWidth="421.0" text="                      Dominio en 3D" textAlignment="RIGHT" textFill="WHITE">
+            <Label layoutX="76.0" layoutY="-25.0" prefHeight="39.0" prefWidth="421.0" text="                      Dominio en 3D" textAlignment="RIGHT" textFill="WHITE">
                <font>
-                  <Font name="Impact" size="31.0" />
+                  <Font name="Impact" size="41.0" />
                </font>
             </Label>
             <Text fill="WHITE" layoutX="88.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El dominio, al ser continuo, pasa por un proceso de mallado, el cual representa la discretización de este" textAlignment="CENTER" wrappingWidth="515.0">

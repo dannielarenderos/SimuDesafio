@@ -12,14 +12,14 @@
    <children>
       <AnchorPane layoutX="58.0" layoutY="53.0" prefHeight="474.0" prefWidth="690.0" style="-fx-background-color: #0B2F3A; -fx-background-radius: 30;" AnchorPane.topAnchor="53.0">
          <children>
-            <Label layoutX="165.0" layoutY="-25.0" prefHeight="50.0" prefWidth="366.0" style="-fx-alignment: center;" text="ENSAMBLAJE" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="-25.0">
+            <Label layoutX="165.0" layoutY="-25.0" prefHeight="50.0" prefWidth="366.0" style="-fx-alignment: center;" text="ENSAMBLAJE MATRIZ K" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="-25.0">
                <font>
                   <Font name="Goudy Old Style" size="33.0" />
                </font>
             </Label>
-            <Text fill="WHITE" layoutX="91.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El número total de nodos establece las dimensiones del sistema global" textAlignment="CENTER" wrappingWidth="515.0">
+            <Text fill="WHITE" layoutX="91.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ensamblaje de elemento 2 en matriz global K" textAlignment="CENTER" wrappingWidth="515.0">
                <font>
-                  <Font size="13.0" />
+                  <Font size="18.0" />
                </font>
             </Text>
             <Text fill="WHITE" layoutX="91.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Es decir para la matriz global, el vector global de incógnitas y el vector derecho global" textAlignment="CENTER" wrappingWidth="515.0">
@@ -47,7 +47,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button id="button2" layoutX="483.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioPasos" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="483.0" AnchorPane.topAnchor="505.0">
+      <Button id="button2" layoutX="483.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioInicio" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="483.0" AnchorPane.topAnchor="505.0">
          <graphic>
             <ImageView>
                <image>
@@ -55,11 +55,11 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button layoutX="357.0" layoutY="506.0" mnemonicParsing="false" onAction="#cambioInicio" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+      <Button layoutX="357.0" layoutY="506.0" mnemonicParsing="false" onAction="#cambioEnsamMenu" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
          <graphic>
             <ImageView>
                <image>
-                  <Image url="@img/navegador.png" />
+                  <Image url="@img/numeracion%20(3).png" />
                </image>
             </ImageView>
          </graphic></Button>

@@ -42,6 +42,11 @@
                   <Font size="15.0" />
                </font>
             </Text>
+            <Text fill="WHITE" layoutX="187.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K                                 T                                  b" textAlignment="CENTER" wrappingWidth="316.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
          </children>
       </AnchorPane>
       <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioEnsam" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">
@@ -60,11 +65,11 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button layoutX="357.0" layoutY="506.0" mnemonicParsing="false" onAction="#cambioInicio" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+      <Button layoutX="357.0" layoutY="506.0" mnemonicParsing="false" onAction="#cambioEnsamMenu" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
          <graphic>
             <ImageView>
                <image>
-                  <Image url="@img/navegador.png" />
+                  <Image url="@img/numeracion%20(3).png" />
                </image>
             </ImageView>
          </graphic></Button>

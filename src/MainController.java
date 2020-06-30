@@ -174,7 +174,134 @@ public class MainController implements Initializable {
         window.show();
 
     }
+    @FXML
+    public void cambioEnsamb1(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Ensamb1.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
 
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
+    @FXML
+    public void cambioEnsamb2(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Ensamb2.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
+    @FXML
+    public void cambioNeu(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Neu.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+    @FXML
+    public void cambioCondi(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Condi.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
+    @FXML
+    public void cambioDir(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Dir.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+    @FXML
+    public void cambioDir1(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Dir1.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
+    @FXML
+    public void cambioDir2(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Dir2.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
+    @FXML
+    public void cambioDir3(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Dir3.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
+    @FXML
+    public void cambioDir4(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Dir4.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
+    @FXML
+    public void cambioResult(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Result.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+
+    @FXML
+    public void cambioFin(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Fin.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
+    @FXML
+    public void cambioEnsamMenu(ActionEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("Ensamblaje.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent,800, 600);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(tableViewScene);
+        window.show();
+
+    }
 
     @FXML
     public void cambioFunForm(ActionEvent event) throws IOException {

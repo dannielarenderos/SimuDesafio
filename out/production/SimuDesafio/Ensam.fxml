@@ -17,22 +17,32 @@
                   <Font name="Goudy Old Style" size="33.0" />
                </font>
             </Label>
-            <Text fill="WHITE" layoutX="92.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Números de nodos en la malla: 8" textAlignment="CENTER" wrappingWidth="515.0">
+            <Text fill="WHITE" layoutX="92.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Números de nodos en la malla: 8" textAlignment="CENTER" wrappingWidth="515.0">
                <font>
                   <Font size="12.5" />
                </font>
             </Text>
-            <ImageView fitHeight="255.0" fitWidth="307.0" layoutX="45.0" layoutY="109.0">
+            <ImageView fitHeight="255.0" fitWidth="307.0" layoutX="45.0" layoutY="116.0">
                <image>
                   <Image url="@img/mallaa.gif" />
                </image>
             </ImageView>
-            <ImageView fitHeight="255.0" fitWidth="294.0" layoutX="352.0" layoutY="109.0">
+            <ImageView fitHeight="255.0" fitWidth="294.0" layoutX="352.0" layoutY="116.0">
                <image>
                   <Image url="@img/tabla.png" />
                </image>
             </ImageView>
-            <Text fill="WHITE" layoutX="88.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al generar la malla, se generan 6 elementos en forma de tetaédros y conforman una Tabla de Conectividades " textAlignment="CENTER" wrappingWidth="515.0">
+            <Text fill="WHITE" layoutX="88.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al generar la malla, se generan 6 elementos en forma de tetaédros " textAlignment="CENTER" wrappingWidth="515.0">
+               <font>
+                  <Font size="12.5" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="98.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="515.0">
+               <font>
+                  <Font size="12.5" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="95.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conformando la Tabla de Conectividades" textAlignment="CENTER" wrappingWidth="515.0">
                <font>
                   <Font size="12.5" />
                </font>
@@ -55,11 +65,11 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button layoutX="357.0" layoutY="506.0" mnemonicParsing="false" onAction="#cambioInicio" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+      <Button layoutX="357.0" layoutY="506.0" mnemonicParsing="false" onAction="#cambioEnsamMenu" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
          <graphic>
             <ImageView>
                <image>
-                  <Image url="@img/navegador.png" />
+                  <Image url="@img/numeracion%20(3).png" />
                </image>
             </ImageView>
          </graphic></Button>

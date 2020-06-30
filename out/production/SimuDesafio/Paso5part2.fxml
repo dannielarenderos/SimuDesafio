@@ -12,7 +12,7 @@
    <children>
       <AnchorPane layoutX="58.0" layoutY="53.0" prefHeight="481.0" prefWidth="690.0" style="-fx-background-color: #0B2F3A; -fx-background-radius: 30;">
          <children>
-            <ImageView fitHeight="145.0" fitWidth="639.0" layoutX="26.0" layoutY="225.0">
+            <ImageView fitHeight="111.0" fitWidth="639.0" layoutX="28.0" layoutY="242.0">
                <image>
                   <Image url="@img/52.png" />
                </image>
@@ -47,17 +47,17 @@
                   <Font name="Eras Demi ITC" size="18.0" />
                </font>
             </Label>
-            <ImageView fitHeight="74.0" fitWidth="590.0" layoutX="48.0" layoutY="164.0">
+            <ImageView fitHeight="58.0" fitWidth="590.0" layoutX="52.0" layoutY="190.0">
                <image>
                   <Image url="@img/51.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="86.0" fitWidth="275.0" layoutX="208.0" layoutY="345.0">
+            <ImageView fitHeight="86.0" fitWidth="275.0" layoutX="212.0" layoutY="346.0">
                <image>
                   <Image url="@img/53.png" />
                </image>
             </ImageView>
-            <Text fill="WHITE" layoutX="67.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Se distribuye N transpuesta y la integral a cada uno" textAlignment="CENTER" wrappingWidth="556.0">
+            <Text fill="WHITE" layoutX="69.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Se distribuye N transpuesta y la integral a cada uno" textAlignment="CENTER" wrappingWidth="556.0">
                <font>
                   <Font size="14.0" />
                </font>
@@ -80,7 +80,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button layoutX="357.0" layoutY="512.0" mnemonicParsing="false" onAction="#cambioMef1" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+      <Button layoutX="357.0" layoutY="512.0" mnemonicParsing="false" onAction="#cambioInicio" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
          <graphic>
             <ImageView>
                <image>

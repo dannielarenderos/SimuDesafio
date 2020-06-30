@@ -11,9 +11,9 @@
    <children>
       <AnchorPane layoutX="56.0" layoutY="51.0" prefHeight="128.0" prefWidth="687.0" style="-fx-background-color: #0B2F3A; -fx-background-radius: 20;">
          <children>
-            <Label layoutX="133.0" layoutY="22.0" prefHeight="85.0" prefWidth="421.0" text="PASOS DEL MEF" textAlignment="JUSTIFY" textFill="WHITE">
+            <Label layoutX="95.0" layoutY="22.0" prefHeight="85.0" prefWidth="544.0" text="PASOS DEL MEF" textAlignment="JUSTIFY" textFill="WHITE">
                <font>
-                  <Font name="Impact" size="69.0" />
+                  <Font name="Berlin Sans FB Demi Bold" size="69.0" />
                </font>
             </Label>
          </children></AnchorPane>

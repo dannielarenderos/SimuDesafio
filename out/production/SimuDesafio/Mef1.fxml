@@ -27,7 +27,7 @@
                   <Font size="14.0" />
                </font>
             </Text>
-            <Label layoutX="127.0" layoutY="-19.0" text="Método de los elementos finitos " textFill="WHITE">
+            <Label layoutX="139.0" layoutY="-19.0" text="Método de los elementos finitos " textFill="WHITE">
                <font>
                   <Font name="Impact" size="31.0" />
                </font>
