@@ -19,7 +19,7 @@
             </Label>
             <Text fill="WHITE" layoutX="91.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aplicando condiciones a nodos del modelo" textAlignment="CENTER" wrappingWidth="515.0">
                <font>
-                  <Font size="15.0" />
+                  <Font size="14.0" />
                </font>
             </Text>
             <Text fill="WHITE" layoutX="91.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="515.0">
@@ -27,16 +27,21 @@
                   <Font size="13.0" />
                </font>
             </Text>
-            <ImageView fitHeight="244.0" fitWidth="296.0" layoutX="56.0" layoutY="150.0">
+            <ImageView fitHeight="244.0" fitWidth="419.0" layoutX="75.0" layoutY="135.0">
                <image>
                   <Image url="@img/Di.gif" />
                </image>
             </ImageView>
-            <Text fill="WHITE" layoutX="80.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dirichlet" textAlignment="CENTER" wrappingWidth="183.0">
+            <Text fill="WHITE" layoutX="193.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dirichlet" textAlignment="CENTER" wrappingWidth="183.0">
                <font>
-                  <Font size="15.0" />
+                  <Font name="Berlin Sans FB Demi Bold" size="24.0" />
                </font>
             </Text>
+            <ImageView fitHeight="103.0" fitWidth="89.0" layoutX="533.0" layoutY="190.0">
+               <image>
+                  <Image url="@img/dir.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
       <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioNeu" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -9,37 +10,61 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #070B19;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
    <children>
-      <AnchorPane layoutX="58.0" layoutY="53.0" prefHeight="474.0" prefWidth="690.0" style="-fx-background-color: #0B2F3A; -fx-background-radius: 30;" AnchorPane.topAnchor="53.0">
+      <AnchorPane layoutX="58.0" layoutY="53.0" prefHeight="482.0" prefWidth="690.0" style="-fx-background-color: #0B2F3A; -fx-background-radius: 30;">
          <children>
-            <ImageView fitHeight="297.0" fitWidth="639.0" layoutX="42.0" layoutY="100.0">
-               <image>
-                  <Image url="@img/42.png" />
-               </image>
-            </ImageView>
-            <Text fill="WHITE" layoutX="89.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Una vez se tiene el resultado de la multiplicación en cada nodo que tiene condición de Dirichloet, se mueven estos nodos hacia el lado derecho del vector que tienen las condiciones de Neumann" textAlignment="CENTER" wrappingWidth="515.0">
+            <Text fill="WHITE" layoutX="97.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="515.0">
                <font>
                   <Font size="14.0" />
                </font>
             </Text>
+            <ImageView fitHeight="178.0" fitWidth="233.0" layoutX="26.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/ini.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="178.0" fitWidth="233.0" layoutX="232.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/ini.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="178.0" fitWidth="233.0" layoutX="434.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/ini.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="174.0" fitWidth="266.0" layoutX="6.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/ini.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="174.0" fitWidth="247.0" layoutX="230.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/ini.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="174.0" fitWidth="232.0" layoutX="459.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/ini.gif" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="196.0" prefHeight="90.0" prefWidth="596.0" text="LOS ELEMENTOS" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="73.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="106.0" prefHeight="90.0" prefWidth="515.0" text="MÉTODO DE  " textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="78.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="103.0" layoutY="293.0" prefHeight="90.0" prefWidth="515.0" text="FINITOS EN 3D" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="73.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
-      <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioResult" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">
-         <graphic>
-            <ImageView>
-               <image>
-                  <Image url="@img/chevron-izquierdo%20(1).png" />
-               </image>
-            </ImageView>
-         </graphic></Button>
-      <Button id="button2" layoutX="483.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioInicio" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="483.0" AnchorPane.topAnchor="505.0">
-         <graphic>
-            <ImageView>
-               <image>
-                  <Image url="@img/navegador.png" />
-               </image>
-            </ImageView>
-         </graphic></Button>
-      <Button layoutX="357.0" layoutY="506.0" mnemonicParsing="false" onAction="#cambioEnsamMenu" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+      <Button layoutX="290.0" layoutY="510.0" mnemonicParsing="false" onAction="#cambioEnsamMenu" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
          <graphic>
             <ImageView>
                <image>
@@ -47,5 +72,32 @@
                </image>
             </ImageView>
          </graphic></Button>
+      <Button layoutX="157.0" layoutY="510.0" mnemonicParsing="false" onAction="#cambioResult" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/chevron-izquierdo%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="416.0" layoutY="510.0" mnemonicParsing="false" onAction="#cambioPasos" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/numeracion%20(3)1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="548.0" layoutY="510.0" mnemonicParsing="false" onAction="#cambioInicio" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@img/navegador.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
    </children>
 </AnchorPane>

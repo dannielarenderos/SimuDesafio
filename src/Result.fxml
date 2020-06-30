@@ -12,24 +12,34 @@
    <children>
       <AnchorPane layoutX="58.0" layoutY="53.0" prefHeight="474.0" prefWidth="690.0" style="-fx-background-color: #0B2F3A; -fx-background-radius: 30;" AnchorPane.topAnchor="53.0">
          <children>
-            <Label layoutX="131.0" layoutY="-25.0" prefHeight="50.0" prefWidth="431.0" style="-fx-alignment: center;" text="CONDICIÓN DE DIRICHLET" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="-25.0">
+            <Label layoutX="131.0" layoutY="-25.0" prefHeight="50.0" prefWidth="431.0" style="-fx-alignment: center;" text="SISTEMA FINAL" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="-25.0">
                <font>
                   <Font name="Goudy Old Style" size="33.0" />
                </font>
             </Label>
-            <ImageView layoutX="42.0" layoutY="100.0">
+            <ImageView fitHeight="336.0" fitWidth="611.0" layoutX="41.0" layoutY="46.0">
                <image>
-                  <Image url="@img/ensamDir4.gif" />
+                  <Image url="@img/fin.png" />
                </image>
             </ImageView>
-            <Text fill="WHITE" layoutX="89.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Una vez se tiene el resultado de la multiplicación en cada nodo que tiene condición de Dirichloet, se mueven estos nodos hacia el lado derecho del vector que tienen las condiciones de Neumann" textAlignment="CENTER" wrappingWidth="515.0">
+            <Text fill="WHITE" layoutX="98.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finalmente para encontrar las incógnitas, se despeja el vector que las contiene " textAlignment="CENTER" wrappingWidth="515.0">
                <font>
-                  <Font size="14.0" />
+                  <Font size="13.0" />
                </font>
             </Text>
+            <ImageView fitHeight="87.0" fitWidth="234.0" layoutX="239.0" layoutY="348.0">
+               <image>
+                  <Image url="@img/fin2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="80.0" fitWidth="264.0" layoutX="216.0" layoutY="32.0">
+               <image>
+                  <Image url="@img/fin1.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
-      <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioDir3" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">
+      <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioDir4" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">
          <graphic>
             <ImageView>
                <image>
@@ -37,7 +47,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button id="button2" layoutX="483.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioDir4" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="483.0" AnchorPane.topAnchor="505.0">
+      <Button id="button2" layoutX="483.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioFin" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="483.0" AnchorPane.topAnchor="505.0">
          <graphic>
             <ImageView>
                <image>

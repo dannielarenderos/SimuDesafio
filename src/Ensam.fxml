@@ -49,7 +49,7 @@
             </Text>
          </children>
       </AnchorPane>
-      <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioPaso6" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">
+      <Button layoutX="231.0" layoutY="505.0" mnemonicParsing="false" onAction="#cambioEnsamMenu" prefHeight="50.0" prefWidth="106.0" styleClass="button1" stylesheets="@css/Style.css" textFill="WHITE" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="505.0">
          <graphic>
             <ImageView>
                <image>
