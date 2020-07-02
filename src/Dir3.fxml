@@ -22,7 +22,7 @@
                   <Image url="@img/ensamDir3.gif" />
                </image>
             </ImageView>
-            <Text fill="WHITE" layoutX="89.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Se remueven las filas en el vector global b y el vector que tiene las condiciones de Neumann, posterirmente se multiplica las filas que se removieron con el valor de cada nodo en los que se aplicó Dirichlet" textAlignment="CENTER" wrappingWidth="515.0">
+            <Text fill="WHITE" layoutX="89.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Se remueven las filas en el vector global b y el vector que tiene las condiciones de Neumann, posterirmente se suman las filas de las columnas que se removieron en la matriz con el valor de cada nodo en los que se aplicó Dirichlet" textAlignment="CENTER" wrappingWidth="515.0">
                <font>
                   <Font size="14.0" />
                </font>

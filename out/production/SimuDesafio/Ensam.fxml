@@ -32,7 +32,7 @@
                   <Image url="@img/tabla.png" />
                </image>
             </ImageView>
-            <Text fill="WHITE" layoutX="88.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al generar la malla, se generan 6 elementos en forma de tetaédros " textAlignment="CENTER" wrappingWidth="515.0">
+            <Text fill="WHITE" layoutX="88.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al generar la malla, se generan 12 elementos en forma de tetaédros " textAlignment="CENTER" wrappingWidth="515.0">
                <font>
                   <Font size="12.5" />
                </font>
